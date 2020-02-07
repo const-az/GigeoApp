@@ -1,0 +1,46 @@
+.bg-white{
+  background-color: $white;
+}
+
+.navbar__icon{
+  color: $black;
+  font-size: $xx-large;
+}
+
+.logo__text{
+  display: flex;
+  font-family: $futura;
+  font-size: $xxxx-large;
+  margin-top: 0.5rem;
+
+  span{
+    font-size: $x-small;
+  }
+}
+
+#menu .nav-link{
+  color: $black;
+  font-size: $medium;
+
+
+  &:hover{
+    color: $gray;
+  }
+
+  i,p{
+    display: inline-block;
+    margin: 0 5px;
+  }
+}
+
+@media (min-width: 992px) {
+#menu{
+    .nav-link{
+      font-size: $x-large;
+
+      p{
+        display: none;
+      }
+    }
+  }
+}

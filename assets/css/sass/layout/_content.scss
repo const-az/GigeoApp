@@ -1,0 +1,25 @@
+.content{
+  &__title{
+    margin-top: $xxx-large;
+  }
+
+  &__video{
+    margin-bottom: $x-large;
+
+    .video__title{
+      margin-top: $x-small;
+    }
+
+    .video__img{
+      width: 100%;
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  .content__title{
+    text-align: center;
+    margin-top: $xx-large;
+  }
+}

@@ -1,0 +1,29 @@
+.button {
+  padding: .5rem 1rem;
+  border: none;
+  font-size: $large;
+  font-weight: $font-light;
+  color: $white;
+
+  &_green{
+    background-color: $verdigris;
+
+    &:hover{
+      background-color: $medium-aquamarine;
+    }
+  }
+
+  &_orange{
+    background-color: $carmine-pink;
+
+    &:hover{
+      background-color: $salmon
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .profile__buttons{
+    display: none;
+  }
+}

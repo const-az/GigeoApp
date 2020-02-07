@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Futura';
+  src: url("../fonts/FuturaLT.woff") format('woff');
+  src: url("../fonts/FuturaLT.ttf") format('truetype');
+}
+
+h2{
+  font-weight: $font-medium;
+  font-size: $xx-large;
+}
+
+h4{
+  font-weight: $bold;
+  font-size: $x-large;
+}
+
+h6{
+  font-family: $opensans;
+  font-weight: $font-light;
+  font-size: $medium;
+  color: $black-olive;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Constanza Avilés Zavando">
+    <title>Gigeo App</title>
+    <link rel="shortcut icon" type="img" href="assets/img/favicon.png"/>
+    <!-- Font Fonts: Montserrat (300+500,700) + OpenSans (300) -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Open+Sans:300&display=swap" rel="stylesheet">
+    <!--Font Awesome 5.6.3-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html"><h1 class="logo__text">GIGEO<span class="align-self-start">ART</span></h1></a>
+        <button class="navbar-toggler"type="button"data-toggle="collapse"data-target="#navbarNav"aria-controls="navbarNav"aria-expanded="false"aria-label="Toggle navigation">
+          <i class="fas fa-bars navbar__icon"></i>
+        </button>
+        <div class="collapse navbar-collapse"id="navbarNav">
+          <ul class="navbar-nav ml-auto" id="menu">
+            <li class="nav-item"><a class="nav-link"href="#"><i class="fas fa-search"></i><p>Buscar</p><span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link"href="#"><i class="fas fa-video"></i><p>Videos</p></a></li>
+            <li class="nav-item"><a class="nav-link"href="#"><i class="fas fa-plus"></i><p>Más</p></a></li>
+            <li class="nav-item"><a class="nav-link"href="#"><i class="fas fa-bell"></i><p>Notificaciones</p></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <div class="banner"></div>
+
+    <div class="profile">
+      <div class="container">
+        <div class="profile__author align-items-center">
+          <img src="assets/img/profile-image.png" class="author__img">
+          <div class="author__id">
+            <h4>Yuki Mukami</h4>
+            <h6>30.000 seguidores</h6>
+          </div>
+        </div>
+
+        <div class="profile__buttons ml-auto align-self-center">
+          <button type="button" class="button button_green">Mensaje</button>
+          <button type="button" class="button button_orange">Seguir</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="content">
+      <div class="container">
+        <h2 class="content__title">Videos populares</h2>
+
+        <div class="row my-5">
+          <article class="content__video col-12 col-md-6 col-lg-3">
+            <img src="assets/img/image-1.png" class="video__img">
+            <h4 class="video__title">Después de la vela - Yuki Mukami</h4>
+            <h6 class="video__subtitle">16k vistas - 1 semana atrás</h6>
+          </article>
+
+          <article class="content__video col-12 col-md-6 col-lg-3">
+            <img src="assets/img/image-2.png" class="video__img">
+            <h4 class="video__title">Far Away - Yuki Mukami</h4>
+            <h6 class="video__subtitle">100k vistas - 1 mes atrás</h6>
+          </article>
+
+          <article class="content__video col-12 col-md-6 col-lg-3">
+            <img src="assets/img/image-3.png" class="video__img">
+            <h4 class="video__title">City - Yuki Mukami</h4>
+            <h6 class="video__subtitle">20k vistas - 1 mes atrás</h6>
+          </article>
+
+          <article class="content__video col-12 col-md-6 col-lg-3">
+            <img src="assets/img/image-4.png" class="video__img">
+            <h4 class="video__title">A Yuki Tale - Yuki Mukami</h4>
+            <h6 class="video__subtitle">1m vistas - 1 año atrás</h6>
+          </article>
+
+          <article class="content__video col-12 col-md-6 col-lg-3">
+            <img src="assets/img/image-5.png" class="video__img">
+            <h4 class="video__title">Mapocho - Yuki Mukami</h4>
+            <h6 class="video__subtitle">100k vistas - 1 mes atrás</h6>
+          </article>
+
+          <article class="content__video col-12 col-md-6 col-lg-3">
+            <img src="assets/img/image-6.png" class="video__img">
+            <h4 class="video__title">Lucky Days - Yuki Mukami</h4>
+            <h6 class="video__subtitle">40k vistas - 3 meses atrás</h6>
+          </article>
+
+          <article class="content__video col-12 col-md-6 col-lg-3">
+            <img src="assets/img/image-7.png" class="video__img">
+            <h4 class="video__title">30 days in My House - Yuki Mukami</h4>
+            <h6 class="video__subtitle">10k vistas - 4 meses atrás</h6>
+          </article>
+
+          <article class="content__video col-12 col-md-6 col-lg-3">
+            <img src="assets/img/image-8.png" class="video__img">
+            <h4 class="video__title">Santiago - Yuki Mukami</h4>
+            <h6 class="video__subtitle">40k vistas - 5 meses atrás</h6>
+          </article>
+
+        </div>
+      </div>
+    </div>
+
+    <!--jQuery 3.4.1-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!--Popper JS 1.16.0-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!--Bootstrap JS 4.4.1-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
